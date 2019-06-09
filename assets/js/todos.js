@@ -1,3 +1,5 @@
+var todotext;
+
 $("ul").on("click","li",function(){
 
 	$(this).toggleClass("completed");
@@ -12,7 +14,7 @@ $("ul").on("click","span",function(){
 
 $("input[type='text']").keypress(function(event){
 	if (event.which === 13){
-		var todotext = $(this).val();
+		todotext = $(this).val();
 		$(this).val("");
 		$("ul").append("<li><span> <i class='fa fa-trash'></i> </span>" + todotext + "</li>");
 
@@ -21,5 +23,7 @@ $("input[type='text']").keypress(function(event){
 
 $(".fa-plus").click(function(){
 
-	$("input[type='text']").fadeToggle();	
+	todotext = $("input[type='text']").val();
+		$("input[type='text']").val("");
+		$("ul").append("<li><span> <i class='fa fa-trash'></i> </span>" + todotext + "</li>");	
 });
