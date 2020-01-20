@@ -1,0 +1,462 @@
+<html>
+	<head>
+      <title>KOLAAHAL 2020</title>
+      <link href="favicon.ico">
+      <link rel="stylesheet" href="timerstyle.css">
+      <link href="https://fonts.googleapis.com/css?family=El+Messiri:700&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:700&display=swap" rel="stylesheet">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+      <link rel="stylesheet" href="./events.css">
+      <link rel="stylesheet" href="./sliderstyle.css">
+      <link rel="stylesheet" href="title.css">
+      <meta charset="UTF-8" />
+      <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+      <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      <script src="index.js"></script>
+      <link href="index.css" rel="stylesheet">
+	</head>
+	
+
+	<body>
+
+    <!-- first section -->
+
+			<div id="mainnav" class="navbar-container navbar navbar-expand-lg navbar-light">
+
+        <div class="mx-auto mt-2">
+          <img id="logo" src="images/newlogo.png">
+        </div>
+				
+        <div class="mx-auto">
+				<!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button> -->
+	 <button 
+     class="navbar-toggler collapsed" 
+    data-target="#navbarSupportedContent" 
+    data-toggle="collapse">
+        <span class="line"></span> 
+        <span class="line"></span> 
+        <span class="line"></span>
+</button>
+	
+				<ul class="collapse navbar-collapse navbar-nav ml-auto" id="navbarSupportedContent">
+					<li class="nav-link nav-item">
+						<a href="#takeatour">TAKE A TOUR
+						</a>
+						<div class="underline"></div>
+					</li>
+					<li class="nav-link nav-item">
+						<a href="#timeline">TIMELINE</a>
+						<div class="underline nav-item"></div>
+          </li>
+          <li class="nav-link nav-item">
+						<a href="https://youtu.be/JWVSMdzkTTU">TEASER</a>
+						<div class="underline nav-item"></div>
+					</li>
+					<li class="nav-link nav-item">
+						<a href="#">BROCHURE</a>
+						<div class="underline"></div>
+					</li>
+					<li class="nav-link nav-item">
+						<a href="#events">EVENTS</a>
+						<div class="underline"></div>
+					</li>
+					<li class="nav-link nav-item">
+						<a href="https://docs.google.com/forms/d/e/1FAIpQLSdV_0bv9cxJLppq9GVA-OhB8FpyOYP4OgnU5HEIBCzHOz1gfg/viewform">REGISTRATION</a>
+						<div class="underline"></div>
+					</li>
+					<li class="nav-link nav-item">
+						<a href="#contactus">CONTACT US</a>
+						<div class="underline"></div>
+					</li>
+				</ul>
+			</div>
+    </div>
+
+    <div class="container-fluid">
+      <div id="kolaahal" class="glitch" data-text="KOLAAHAL">KOLAAHAL 2020</div>
+			<br>
+      <div id="dates">13 - 15 February</div>
+    </div>
+			
+    <!-- first section ends-->
+
+    <!-- second section -->
+    <div id="timer">
+      <ul>
+        <li><span id="days"></span>days</li>
+        <li><span id="hours"></span>Hours</li>
+        <li><span id="minutes"></span>Minutes</li>
+        <li><span id="seconds"></span>Seconds</li>
+      </ul>
+    </div>
+    <!-- second section ends-->
+    <br>
+    <br>
+
+    <!-- third section -->
+		<div id="takeatour">
+			<p>TAKE A TOUR <img src="images/airplane.png" id="airplane"></p>
+
+      <div class="wrapper">
+        <input checked type=radio name="slider" id="slide1" />
+        <input type=radio name="slider" id="slide2" />
+        <input type=radio name="slider" id="slide3" />
+        <input type=radio name="slider" id="slide4" />
+        <input type=radio name="slider" id="slide5" />
+      
+        <div class="slider-wrapper">
+          <div class=inner>
+            <article>
+              <img src="images/1.jpeg" />
+            </article>
+      
+            <article>
+              <img src="images/2.jpeg" />
+            </article>
+      
+            <article>
+              
+              <img src="images/3.jpeg" />
+            </article>
+      
+            <article>
+              
+              <img src="images/4.jpeg" />
+            </article>
+      
+            <article>
+              
+              <img src="images/5.jpeg" />
+            </article>
+          </div>
+          <!-- .inner -->
+        </div>
+        <!-- .slider-wrapper -->
+      
+        <div class="slider-prev-next-control">
+          <label for=slide1></label>
+          <label for=slide2></label>
+          <label for=slide3></label>
+          <label for=slide4></label>
+          <label for=slide5></label>
+        </div>
+        <!-- .slider-prev-next-control -->
+      
+        <div class="slider-dot-control">
+          <label for=slide1></label>
+          <label for=slide2></label>
+          <label for=slide3></label>
+          <label for=slide4></label>
+          <label for=slide5></label>
+        </div>
+        <!-- .slider-dot-control -->
+      </div>
+    <!-- fourth section -->
+		<div id="temp">
+
+    </div>
+  <!-- fourth section ends-->
+  <br>
+  <br>
+  <!-- fifth section -->
+		<div id="timeline">
+      <p>TIMELINE</p>
+        <br>
+        <br>
+        <img src="images/time1.png" class="img-fluid">
+    </div>
+    <!-- fifth section ends-->
+
+    <!-- sixth section -->
+    <!-- sixth section ends-->
+
+    <br>
+    <br>
+    <br>
+    
+    <!-- seventh section -->
+		<div id="events">
+			<p>EVENTS</p>
+
+			<div class="cards">
+
+        <div class="card">
+          <img class="card__image" src="images/6.JPG" alt="wave" />
+          <div class="card-title">
+            <a href="#" class="toggle-info btn">
+              <span class="left"></span>
+              <span class="right"></span>
+            </a>
+            <h2>
+                OPENING CERMONY
+                <small>DAY 1- 10:30-11:30</small>
+            </h2>
+          </div>
+          <div class="card-flap flap1">
+            <div class="card-description">
+              The best time for a new beginning is now so this is the beginning of anything and everything you want, with this we start our Kolaahal with our Opening Ceremony.
+            </div>
+          
+          </div>
+        </div>
+      
+      
+      
+        <div class="card">
+          <img class="card__image" src="images/7.JPG" alt="wave" />
+          <div class="card-title">
+            <a href="#" class="toggle-info btn">
+              <span class="left"></span>
+              <span class="right"></span>
+            </a>
+            <h2>
+                AAROH
+                <small>DAY 1- 11:30-15:00</small>
+            </h2>
+          </div>
+          <div class="card-flap flap1">
+            <div class="card-description">
+           Music gives a soul to the universe, wings to the mind, flight to the imagination and life to everything. So  Kolaahal is here to pleasure your ears with AAROH.
+            </div>
+          
+          </div>
+        </div>
+      
+        <div class="card">
+          <img class="card__image" src="images/8.JPG" alt="wave" />
+          <div class="card-title">
+            <a href="#" class="toggle-info btn">
+              <span class="left"></span>
+              <span class="right"></span>
+            </a>
+            <h2>
+                RANGMANCH:SKIT
+                <small>DAY 1- 15:00-17:00</small>
+            </h2>
+          </div>
+          <div class="card-flap flap1">
+            <div class="card-description">
+             Acting gives you a story to tell, a reason to cry and lets you for once be someone and then back to yourself. Here comes the stage of Kolaahal with Rangmanch: Skit to relive the actor in you.
+            </div>
+          
+          </div>
+        </div>
+      
+        <div class="card">
+          <img class="card__image" src="images/kavisammelan.jpeg" alt="wave" />
+          <div class="card-title">
+            <a href="#" class="toggle-info btn">
+              <span class="left"></span>
+              <span class="right"></span>
+            </a>
+            <h2>
+                KAVI SAMMLEN
+                <small>DAY 1- 18:00-20:30</small>
+            </h2>
+          </div>
+          <div class="card-flap flap1">
+            <div class="card-description">
+            Poets are the unacknowledged legislators of the world. So drive them their deserved acknowledgement Kolaahal comes with KAVI SAMMELAN
+            </div>
+          
+          </div>
+        </div>
+      
+        <div class="card">
+          <img class="card__image" src="images/mskolaahal.jpeg" alt="wave" />
+          <div class="card-title">
+            <a href="#" class="toggle-info btn">
+              <span class="left"></span>
+              <span class="right"></span>
+            </a>
+            <h2>
+                MR. AND MS. KOLAAHAL
+                <small>DAY 2-10:30 - 11:30</small>
+            </h2>
+          </div>
+          <div class="card-flap flap1">
+            <div class="card-description">
+             As it comes with a memorial ground to remember each year Kolaahal with few prominent conditions. One of them being Mr and Miss Kolaahal. So here stand a chance to count this Kolaahal on your name.
+            </div>
+          
+          </div>
+        </div>
+      
+        <div class="card">
+          <img class="card__image" src="images/foxstrot.jpeg" alt="wave" />
+          <div class="card-title">
+            <a href="#" class="toggle-info btn">
+              <span class="left"></span>
+              <span class="right"></span>
+            </a>
+            <h2>
+                FOXTORT
+                <small>DAY 2- 11:30-15:30</small>
+            </h2>
+          </div>
+          <div class="card-flap flap1">
+            <div class="card-description">
+              Dancing is like dreaming with your feet, so if you want to live that dream come and give the glance to FOXTROT.
+            </div>
+          
+          </div>
+        </div>
+      
+      <div class="card">
+          <img class="card__image" src="https://source.unsplash.com/300x225/?wave" alt="wave" />
+          <div class="card-title">
+            <a href="#" class="toggle-info btn">
+              <span class="left"></span>
+              <span class="right"></span>
+            </a>
+            <h2>
+                PURPLE MOON
+                <small>DAY 2- 16:30-19:30</small>
+            </h2>
+          </div>
+          <div class="card-flap flap1">
+            <div class="card-description">
+              This grid is an attempt to make something nice that works on touch devices. Ignoring hover states when they're not available etc.
+            </div>
+          
+          </div>
+        </div>
+      
+        <div class="card">
+          <img class="card__image" src="images/fashionshow.jpeg" alt="wave" />
+          <div class="card-title">
+            <a href="#" class="toggle-info btn">
+              <span class="left"></span>
+              <span class="right"></span>
+            </a>
+            <h2>
+                XTASY-THE RAMPAGE
+                <small>DAY 2- 19:45-21:30</small>
+            </h2>
+          </div>
+          <div class="card-flap flap1">
+            <div class="card-description">
+             Everyday is a fashion show and the world is the runway. To give it the live experience Kolaahal drags it's second night to wrap up with the Xtasy- the rampage Fashion show.
+            </div>
+          
+          </div>
+        </div>
+      
+        <div class="card">
+          <img class="card__image" src="images/openmic.jpeg" alt="wave" />
+          <div class="card-title">
+            <a href="#" class="toggle-info btn">
+              <span class="left"></span>
+              <span class="right"></span>
+            </a>
+            <h2>
+                OPEN MIC
+                <small>DAY 3- 10:30-11-30</small>
+            </h2>
+          </div>
+          <div class="card-flap flap1">
+            <div class="card-description">
+              This grid is an attempt to make something nice that works on touch devices. Ignoring hover states when they're not available etc.
+            </div>
+          
+          </div>
+        </div>
+        
+        <div class="card">
+          <img class="card__image" src="images/academics.jpeg" alt="wave" />
+          <div class="card-title">
+            <a href="#" class="toggle-info btn">
+              <span class="left"></span>
+              <span class="right"></span>
+            </a>
+            <h2>
+                ACADEMICS
+                <small>DAY 3- 11:30-15:30</small>
+            </h2>
+          </div>
+          <div class="card-flap flap1">
+            <div class="card-description">
+              This grid is an attempt to make something nice that works on touch devices. Ignoring hover states when they're not available etc.
+            </div>
+          
+          </div>
+        </div>
+        <div class="card">
+          <img class="card__image" src="images/battleofbands.jpeg" alt="wave" />
+          <div class="card-title">
+            <a href="#" class="toggle-info btn">
+              <span class="left"></span>
+              <span class="right"></span>
+            </a>
+            <h2>
+                BATTLE OF BANDS
+                <small>DAY 3- 16:00-17:00</small>
+            </h2>
+          </div>
+          <div class="card-flap flap1">
+            <div class="card-description">
+              This grid is an attempt to make something nice that works on touch devices. Ignoring hover states when they're not available etc.
+            </div>
+          
+          </div>
+        </div>
+        <div class="card">
+          <img class="card__image" src="images/starnight.jpeg" alt="wave" />
+          <div class="card-title">
+            <a href="#" class="toggle-info btn">
+              <span class="left"></span>
+              <span class="right"></span>
+            </a>
+            <h2>
+                STAR NIGHT 
+                <small>DAY 3- 19:30 - 21:30</small>
+            </h2>
+          </div>
+          <div class="card-flap flap1">
+            <div class="card-description">
+              This grid is an attempt to make something nice that works on touch devices. Ignoring hover states when they're not available etc.
+            </div>
+          </div>
+        </div>
+      </div>	
+</div>
+<!-- seventh section ends-->
+		<!-- <section id="sponsors">
+			<p>SPONSORS</p>
+		</section> -->
+
+<!-- eighth section -->
+		<div id="contactus" class="container-fluid">
+			<p>CONTACT US</p>
+			<p class="content">contact@kolaahal.com</p>
+      <p class="content"><u>FACULTY CO-ORDINATOR</u></p>
+      <p class="content">NITIN SHARMA (+91 6399000364)</p>
+      <div class="mt-5">
+        <p class="content"><U>STUDENT CO-ORDINATOR</U></p>
+        <p class="content">MEHUL VARSHNEY (+91 7017590096)</p>
+        <p class="content">NIKHIL KHATIYAN (+91 7017462183)</p>
+        <p class="content">HIMANSHU SHUKLA (+91 9532978108)</p>
+      </div>
+      <div class="mt-5">
+        <p class="content"><U>WEBSITE DEVELOPER</U></p>
+        <p class="content">ALTAMASH KHAN</p>
+			  <p class="content">ADITYA MALIK</p>
+      </div>
+      <div class="mt-5 mb-4 text-center">
+        <a href="https://www.facebook.com/MIETGROUP/"><img class="rounded mx-2" src="images/facebook.png" style="width: 50px; height: 50px;"></a>
+        <a href="https://www.instagram.com/mietmeerut/"><img class="rounded mx-2" src="images/instagram.png" style="width: 50px; height: 50px;"></a>
+      </div>
+    </div>
+<!-- eighth section ends-->
+<script  src="timerscript.js"></script>
+ <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js'></script><script  src="./scriptevents.js"></script>
+<!-- <script  src="dist/script.js"></script> -->
+	</body>
+</html>
