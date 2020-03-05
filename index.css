@@ -1,7 +1,5 @@
 body{
-    background: url("background.jpg");
-    background-position: center;
-    background-attachment: fixed;
+    background: url("background.png");
     font-family: 'Odibee Sans', cursive;
 }
 
