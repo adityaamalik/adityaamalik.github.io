@@ -1,0 +1,82 @@
+body{
+    background: url("background.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Odibee Sans', cursive;
+}
+
+#pharmacon{
+
+    text-align: center;
+    margin-top: 10rem;
+    font-size: 2rem;
+}
+
+#pharmacon .big{
+    font-size: 3rem;
+}
+
+#about{
+    text-align: left;
+}
+
+#about .big{
+    font-size: 1.5rem;
+}
+
+#about .heading {
+    text-align: center;
+}
+
+#organizers{
+    text-align: center;
+}
+
+#organizers .heading{
+    text-align: center;
+}
+
+#organizers .head{
+    font-size: 1.5rem;
+}
+
+#organizers .bottom{
+    font-size: 1.2rem;
+}
+
+#details h1{
+    text-align: center;
+}
+
+#contact{
+    text-align: center;
+}
+
+#contact .name{
+    font-size: 2rem;
+}
+
+#mainnav
+{
+
+	margin-top: .5rem;
+	margin-right: .5rem;
+	font-weight: 400;
+	font-size: 1.5rem;
+
+	text-align: right;
+}
+#mainnav .nav-link
+{
+	color: black;
+
+
+}
+#mainnav .nav-link:hover
+{
+	color: #ea1c2c;
+}
+
+p{
+    font-size: 1.3rem;
+}
